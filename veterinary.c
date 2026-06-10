@@ -3,11 +3,6 @@
 #include <string.h>
 #define INPUT_FILE "logs.txt"
 
-/*
-    COP 3502C PA3
-    This program is written by: Neil Zambrano
-*/
-
 typedef struct Cat_s {
     int arrival;            // Cat's arrival time at the clinic
                             // Minutes since clinic opened (unique)
